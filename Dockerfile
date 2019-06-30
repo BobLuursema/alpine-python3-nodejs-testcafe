@@ -1,5 +1,7 @@
 FROM node:12-alpine
 
+RUN apk add git
+
 ##### FROM python:3.7.3-alpine3.9 #####
 
 # ensure local python is preferred over distribution python
