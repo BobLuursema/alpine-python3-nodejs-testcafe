@@ -3,7 +3,7 @@ FROM node:12-alpine
 
 # Add Python
 
-RUN apk add --update --no-cache git python3 rsync openssh openssh-client curl
+RUN apk add --update --no-cache git python3 rsync openssh openssh-client curl build-base
 RUN python3 -m ensurepip
 RUN pip3 install --no-cache --upgrade pip
 
